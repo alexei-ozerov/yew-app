@@ -1,0 +1,15 @@
+[package]
+name = "yew-app"
+version = "0.1.0"
+edition = "2018"
+authors = ["aozerov"]
+description = "A small WASM Web-App using the Yew Framework"
+repository = ""
+license = "MIT OR Apache-2.0"
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+yew = "0.17.4"
+wasm-bindgen = "0.2.67"
