@@ -8,4 +8,5 @@ A basic counter application used while keeping track of loaded files to a test d
 
 ### Deploy
 To build the project: `wasm-pack build --target web --out-name wasm --out-dir ./static`
+
 To serve the project: `miniserve ./static --index index.html`
